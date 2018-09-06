@@ -11,10 +11,10 @@
             "size": "${containerSize}",
             "port-mapping": [
                 {
-                    "protocol": "http",
-                    "domain": "${domainName}",
-                    "internal-port": "80",
-                    "external-port": "80"
+                     "protocol": "HTTP",
+                     "domain": "aiperi.envs.subutai.cloud",
+                     "internal-port": "80",
+                     "external-port": "8080"
                 }
             ]
         }
